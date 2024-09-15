@@ -133,4 +133,4 @@ That said, please note the differences between the current challenge and previou
 
 You should have created a private copy of the template repository we gave you. To get a ZIP file that you can submit on the submission form, push all your code to GitHub, click the green "Code" dropdown, and then click "Download ZIP". You can then upload this to our submission form.
 
-Please do NOT zip your code from your local computer, as that will package a large number of unnecessary files from the node_modules folder - if the submission is 1GB, something is wrong!
+Please do NOT zip your code from your local computer, as that will package a large number of unnecessary files from the node_modules folder - if the submission is 1GB, something is wrong!# pennlabsf24
