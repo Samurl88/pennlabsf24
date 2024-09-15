@@ -18,6 +18,10 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+p {
+	margin: 0
+}
+
 a {
 	font-weight: 500;
 	color: #646cff;
@@ -30,9 +34,9 @@ a:hover {
 body {
 	margin: 0;
 	display: flex;
-	place-items: center;
 	min-width: 320px;
 	min-height: 100vh;
+	background-color: #FFFBFB;
 }
 
 h1 {
@@ -44,19 +48,42 @@ button {
 	border-radius: 8px;
 	border: 1px solid transparent;
 	padding: 0.6em 1.2em;
-	font-size: 1em;
+	font-size: 1.2em;
 	font-weight: 500;
 	font-family: inherit;
 	background-color: #1a1a1a;
 	cursor: pointer;
-	transition: border-color 0.25s;
+	/* transition: border-color 0.25s; */
+	transition: background-color 0.25s
 }
-button:hover {
+/* button:hover {
 	border-color: #646cff;
-}
-button:focus,
+} */
+/* button:focus,
 button:focus-visible {
 	outline: 4px auto -webkit-focus-ring-color;
+} */
+
+
+button:hover {
+	background-color: #29A587
+}
+
+button:active {
+	background-color: #21826a
+}
+
+button:focus,
+button:focus-visible {
+	background-color: #21826a
+}
+
+input {
+	border-radius: 5px;
+	border: solid 1px rgba(166, 166, 166, 0.5);
+	padding: 7px;
+	width: 15rem;
+	background-color: #F6F6F6;
 }
 
 @media (prefers-color-scheme: light) {
@@ -68,6 +95,8 @@ button:focus-visible {
 		color: #747bff;
 	}
 	button {
-		background-color: #f9f9f9;
+		background-color: #30B897;
+		color: white
 	}
 }
+
